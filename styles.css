@@ -1,0 +1,33 @@
+main{
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  min-width: 260px;
+  color: black;
+}
+
+img{
+  max-width: 100%; 
+  display: block; 
+  height: auto;
+  margin: auto;
+  border-radius: 10%;
+  border: 5px solid black;
+}
+
+h1 {
+  font-family: Roboto Slab;
+}
+
+ul{
+  max-width:550px;
+  margin:0 auto;
+  text-align:left;
+}
+
+li{
+  margin: 10px;
+}
+
+blockquote{
+  font-style: italic;
+}
