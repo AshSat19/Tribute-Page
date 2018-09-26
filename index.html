@@ -1,51 +1,127 @@
 <!DOCTYPE html>
-<!--Created by Ashwin Sathian.-->
-<!--Please remember to use with adjoining "styles.css" and "scripts.js"-->
+<!--Specimen Solution for Task 1 By Ashwin Sathian-->
+<!--Please ensure "styles.css" file is in the same directory as this document-->
 
 <html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Ashwin Sathian">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-<head>
-  <title>Tribute to Dr. Kalam</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
+		<title>Task 1</title>
 
-<body>
-  <main>
-  <h1 id="title">Dr. A.P.J. Abdul Kalam</h1>
-  <div>The Missile Man of India, The People's President</div>
-  <figure>
-    <div id="img-div">
-    <img id="image" src="https://i.ndtvimg.com/i/2016-07/dr-apj-abdul-kalam_650x400_71469608955.jpg" alt "Dr. Kalam with students">
-    <figcaption id="img-caption">
-      Dr. Kalam always believed that the youth held the key to a bright future for the nation.
-    </figcaption>
-  </figure>
-    </div>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+		<link rel="stylesheet" href="styles.css">
+	</head>
 
-  <article id="tribute-info">
-    <ul>
-      <h3 id="headline">Here's a time line of Dr. Kalam's life:</h3>
-      <li><strong>1931</strong> - Born Avul Pakir Jainulabdeen Abdul Kalam on October 15, in Rameswaram, Tamil Nadu, India</li>
-      <li><strong>1954</strong> - Graduates in Physics from Saint Joseph's College, Tiruchirappalli, in 1954</li>
-      <li><strong>1960</strong> - Gains degree in Aeronautical Engineering from Madras Institute of Technology</li>
-      <li><strong>1969</strong> - Transferred to ISRO from the DRDO</li>
-      <li><strong>1980</strong> - India enters the space club by putting the Rohini satellite in the near earth orbit with the first indigenous Satellite Launch Vehicle (SLV-III), developed under the stewardship of Dr. Kalam</li>
-      <li><strong>1980s-1990s</strong> - As the chief of the Integrated Guided Missile Development Programme, he was responsible for the development and operationalisation of AGNI and PRITHVI Missiles</li>
-      <li><strong>1992-1999</strong> - Works as Chief Scientific Advisor to the PM and Secretary of the DRDO</li>
-      <li><strong>1998</strong> - India conducts the Pokhran II nuclear tests in May with Dr. Kalam as the chief project coordinator</li>
-      <li><strong>1999-2001</strong> - Principal Scientific Advisor to the Government of India</li>
-      <li><strong>2002-2007</strong> - President of India</li>
-      <li><strong>July 27, 2015</strong> - Passes away after collapsing during a lecture at the Indian Institute of Management, Shillong</li>
-    </ul>
-    <blockquote>
-      <p>"You have to Dream before yur dreams can come true."</p>
-      <div>-- Dr. A.P.J. Abdul Kalam</div>
-    </blockquote>
-    
-    <h3>Read more about the life of this exemplary man in this <a id="tribute-link" href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="_blank">Wikipedia entry</a>.</h3>
-  </article>
-</main>
+	<body>
+		<header id="top" class="container-fluid">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="jumbotron jumbotron-fluid">
+							<div class="container">
+								<h2 class="text-center">
+									Dr. A.P.J. Abdul Kalam
+									<br>
+									<small>
+										The Missile Man of India
+									</small>
+								</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
 
-</body>
+		<main class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card border border-dark mx-auto mt-5 mb-5 d-block" style="max-width:300px">
+						<img class="card-img-top" 
+						src="https://www.mwallpapers.com/photos/celebrities/apjabdul-kalam/apjabdul-kalam-best-hd-photos-1080p-iyq5sg.jpg" 
+						alt="Dr. Kalam">
+						<div class="card-body">
+							<h4 class="card-title">Dr. A.P.J. Abdul Kalam</h4>
+							<p class="card-text">
+							  <strong>Born:</strong> 15 October 1931, Rameswaram<br>
+							  <strong>Died:</strong> 27 July 2015, Shillong<br>
+							  <strong>Full Name:</strong> Avul Pakir Jainulabdeen Abdul Kalam
+						    </p>
+						</div>
+					</div>
+				</div>	
+
+				<div class="col-md-8">
+					<figure class="mx-auto d-block">
+						<img src="https://i.ndtvimg.com/i/2016-07/dr-apj-abdul-kalam_650x400_71469608955.jpg" 
+						class="rounded img-fluid mx-auto d-block" 
+						alt="Dr. Kalam with students">
+					</figure>
+				
+					<br>
+				
+					<p class="lead">
+						Little did Jainulabdeen and Ashiamma know that their son would grow up to be the first 
+						citizen of India. An Indian scientist and administrator, Kalam served as the 11th President 
+						of India from 2002 until 2007. One amongst the most respected people of the country, 
+						Kalam has contributed immensely both as a scientist and as a president. His contribution at 
+						the Indian Space Research Organization (ISRO) has been immense. He was responsible for 
+						numerous projects such as Project Devil and Project Valiant and launch of the Rohini-1, 
+						besides developing missiles under the missions Agni and Prithvi. For the same, 
+						he has been popularly tagged as the "Missile Man of India". Kalam has been honored with 
+						great laurels and awards for his work by both the Government of India and other countries. 
+					</p>
+					
+					<h3>A Brief Timeline</h3>
+					<br>
+					<ul class="list-group">
+						<li class="list-group-item"><strong>1931:</strong> Born Avul Pakir Jainulabdeen Abdul Kalam on October 15, in Rameswaram, Tamil Nadu.</li>
+						<li class="list-group-item"><strong>1954:</strong> Graduates in Physics from Saint Joseph's College, Tiruchirappalli, in 1954.</li>
+						<li class="list-group-item"><strong>1960:</strong> Gains degree in Aeronautical Engineering from Madras Institute of Technology.</li>
+						<li class="list-group-item"><strong>1969:</strong> Transferred to ISRO from the DRDO.</li>
+						<li class="list-group-item"><strong>1980:</strong> India enters the space club by putting the Rohini satellite in the near earth orbit with the first indigenous Satellite Launch Vehicle (SLV-III), developed under the stewardship of Dr. Kalam.</li>
+						<li class="list-group-item"><strong>1980s-1990s:</strong> As the chief of the Integrated Guided Missile Development Programme, he was responsible for the development and operationalisation of AGNI and PRITHVI Missiles.</li>
+						<li class="list-group-item"><strong>1992-1999:</strong> works as Chief Scientific Advisor to the PM and Secretary of the DRDO.</li>
+						<li class="list-group-item"><strong>1998:</strong> India conducts the Pokhran II nuclear tests in May with Dr. Kalam as the chief project coordinator.</li>
+						<li class="list-group-item"><strong>1999-2001:</strong> Principal Scientific Advisor to the Government of India.</li>
+						<li class="list-group-item"><strong>2002-2007:</strong> President of India</li>
+						<li class="list-group-item"><strong>A.P.J. Abdul Kalam passes away:</strong> The 11th 
+							President of India, widely acclaimed as the "people's President", passed away on 
+							July 27, 2015 after collapsing during a lecture at the Indian Institute of Management 
+							in Shillong.</li>
+				 	</ul>
+				
+					 <br>
+					<br>
+						
+					<blockquote class="blockquote mx-auto d-block text-center">
+						You have to dream before your dreams can come true.
+						<footer class="blockquote-footer">Dr. A.P.J. Abdul Kalam</footer>
+					</blockquote>
+					
+					<br>
+					<br>
+
+					<button type="button" class="btn btn-outline-info mx-auto d-block mb-5">
+						<a href="#top">Go to Top of Page</a>
+					</button>
+				</div>
+			</div>
+		</div>
+		</main>
+		
+		<footer class="container mx-auto d-block">
+			<div class="row">
+				<div class="col-md-12">
+						<p class="text-center">&copy; Ashwin Sathian</p>
+				</div>
+			</div>
+		</footer>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	</body>
 </html>
